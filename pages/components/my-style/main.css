@@ -1,0 +1,201 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap");
+.section-dashboard-admin {
+  margin-top: 50px;
+}
+
+.section-dashboard-admin .card-modif {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border: 0;
+  border-top: 3px solid #010d4d;
+  margin-bottom: 120px;
+}
+
+.section-dashboard-admin .card-modif .text-title a {
+  text-decoration: underline;
+  color: #c29e00;
+}
+
+.section-dashboard-admin .card-modif .text-title a:hover {
+  color: #745f05;
+}
+
+.section-dashboard-admin .card-modif .text-title span {
+  font-size: 18px;
+  font-weight: 700;
+  color: #312e2e;
+}
+
+.section-dashboard-admin .card-list-siswa {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border-top: 3px solid #010d4d;
+}
+
+.section-dashboard-admin .card-list-siswa .text-title {
+  margin-bottom: 25px;
+}
+
+.section-dashboard-admin .card-list-siswa .text-title a {
+  text-decoration: underline;
+  color: #c29e00;
+}
+
+.section-dashboard-admin .card-list-siswa .text-title a:hover {
+  color: #745f05;
+}
+
+.section-dashboard-admin .card-list-siswa .text-title span {
+  font-size: 18px;
+  font-weight: 700;
+  color: #312e2e;
+}
+
+.section-dashboard-admin .image-dashboard img {
+  height: 70px;
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+.card-data-siswa,
+.card-tambah-staff {
+  border-top: 3px solid #636363;
+}
+
+.card-data-siswa .form-tambah-siswa label,
+.card-data-siswa .form-edit-siswa label,
+.card-data-siswa .table-edit-wali label,
+.card-data-siswa .form-tambah-staff label,
+.card-tambah-staff .form-tambah-siswa label,
+.card-tambah-staff .form-edit-siswa label,
+.card-tambah-staff .table-edit-wali label,
+.card-tambah-staff .form-tambah-staff label {
+  font-size: 14px;
+}
+
+.card-data-siswa .form-tambah-siswa td:first-child,
+.card-data-siswa .form-edit-siswa td:first-child,
+.card-data-siswa .table-edit-wali td:first-child,
+.card-data-siswa .form-tambah-staff td:first-child,
+.card-tambah-staff .form-tambah-siswa td:first-child,
+.card-tambah-staff .form-edit-siswa td:first-child,
+.card-tambah-staff .table-edit-wali td:first-child,
+.card-tambah-staff .form-tambah-staff td:first-child {
+  font-size: 14px;
+}
+
+.card-data-siswa .form-tambah-siswa input,
+.card-data-siswa .form-edit-siswa input,
+.card-data-siswa .table-edit-wali input,
+.card-data-siswa .form-tambah-staff input,
+.card-tambah-staff .form-tambah-siswa input,
+.card-tambah-staff .form-edit-siswa input,
+.card-tambah-staff .table-edit-wali input,
+.card-tambah-staff .form-tambah-staff input {
+  font-size: 14px;
+}
+
+.card-data-siswa .form-tambah-siswa select,
+.card-data-siswa .form-edit-siswa select,
+.card-data-siswa .table-edit-wali select,
+.card-data-siswa .form-tambah-staff select,
+.card-tambah-staff .form-tambah-siswa select,
+.card-tambah-staff .form-edit-siswa select,
+.card-tambah-staff .table-edit-wali select,
+.card-tambah-staff .form-tambah-staff select {
+  font-size: 14px;
+}
+
+.btn-back-tambah-siswa {
+  color: #fdd009;
+  font-size: 35px;
+  margin-bottom: 5px;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.btn-back-tambah-siswa:hover {
+  color: #cca808;
+}
+
+.form-tambah-wali .head-form-info {
+  background-color: #eeeeee;
+  border-radius: 8px;
+}
+
+.form-tambah-wali label {
+  font-size: 14px;
+}
+
+.form-tambah-wali input {
+  font-size: 14px;
+}
+
+.form-tambah-wali select {
+  font-size: 14px;
+}
+
+.btn-back-tambah-guru,
+.btn-back-edit-siswa {
+  color: #fdd009;
+  font-size: 35px;
+  margin-bottom: 5px;
+  -webkit-transition: 0.8s;
+  transition: 0.8s;
+}
+
+.btn-back-tambah-guru:hover,
+.btn-back-edit-siswa:hover {
+  color: #cca808;
+}
+
+.card-data-guru {
+  border-top: 3px solid #636363;
+}
+
+.card-data-guru .form-tambah-guru label {
+  font-size: 14px;
+}
+
+.card-data-guru .form-tambah-guru input {
+  font-size: 14px;
+}
+
+.card-data-guru .form-tambah-guru select {
+  font-size: 14px;
+}
+
+.card-detail-guru {
+  border-top: 3px solid #636363;
+}
+
+.card-detail-guru table tr td {
+  font-size: 14px;
+}
+
+.card-file-bahan {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+.card-upload-dokumen {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border-top: 3px solid #010d4d;
+}
+
+.card-upload-dokumen span {
+  font-weight: 700;
+  color: #312e2e;
+}
+
+.card-upload-dokumen a {
+  text-decoration: underline;
+  color: #c29e00;
+}
+
+.card-upload-dokumen a:hover {
+  color: #745f05;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,168 @@
+.section-dashboard-admin {
+  margin-top: 50px;
+  .card-modif {
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 0;
+    border-top: 3px solid #010d4d;
+    margin-bottom: 120px;
+    .text-title {
+      a {
+        text-decoration: underline;
+        color: #c29e00;
+        &:hover {
+          color: #745f05;
+        }
+      }
+      span {
+        font-size: 18px;
+        font-weight: 700;
+        color: #312e2e;
+      }
+    }
+  }
+  .card-list-siswa {
+    background-color: #ffffff;
+    border-radius: 10px;
+    border-top: 3px solid #010d4d;
+    .text-title {
+      margin-bottom: 25px;
+      a {
+        text-decoration: underline;
+        color: #c29e00;
+        &:hover {
+          color: #745f05;
+        }
+      }
+      span {
+        font-size: 18px;
+        font-weight: 700;
+        color: #312e2e;
+      }
+    }
+  }
+
+  .image-dashboard {
+    img {
+      height: 70px;
+      background-size: cover;
+      background-attachment: fixed;
+      background-repeat: no-repeat;
+    }
+  }
+}
+
+// data-siswa css
+.card-data-siswa,
+.card-tambah-staff {
+  border-top: 3px solid #636363;
+
+  .form-tambah-siswa,
+  .form-edit-siswa,
+  .table-edit-wali,
+  .form-tambah-staff {
+    label {
+      font-size: 14px;
+    }
+    td {
+      &:first-child {
+        font-size: 14px;
+      }
+    }
+    input {
+      font-size: 14px;
+    }
+    select {
+      font-size: 14px;
+    }
+  }
+}
+
+.btn-back-tambah-siswa {
+  color: #fdd009;
+  font-size: 35px;
+  margin-bottom: 5px;
+  transition: 0.8s;
+  &:hover {
+    color: #cca808;
+  }
+}
+.form-tambah-wali {
+  .head-form-info {
+    background-color: #eeeeee;
+    border-radius: 8px;
+  }
+  label {
+    font-size: 14px;
+  }
+  input {
+    font-size: 14px;
+  }
+  select {
+    font-size: 14px;
+  }
+}
+
+// data guru css
+.btn-back-tambah-guru,
+.btn-back-edit-siswa {
+  color: #fdd009;
+  font-size: 35px;
+  margin-bottom: 5px;
+  transition: 0.8s;
+  &:hover {
+    color: #cca808;
+  }
+}
+.card-data-guru {
+  border-top: 3px solid #636363;
+  .form-tambah-guru {
+    label {
+      font-size: 14px;
+    }
+    input {
+      font-size: 14px;
+    }
+    select {
+      font-size: 14px;
+    }
+  }
+}
+
+.card-detail-guru {
+  border-top: 3px solid #636363;
+  table {
+    tr {
+      td {
+        font-size: 14px;
+      }
+    }
+  }
+}
+
+.card-file-bahan {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+// .modal-detail-keuangan {
+//   .modal-body {
+//     // sd
+//   }
+// }
+.card-upload-dokumen {
+  background-color: #ffffff;
+  border-radius: 10px;
+  border-top: 3px solid #010d4d;
+  span {
+    font-weight: 700;
+    color: #312e2e;
+  }
+  a {
+    text-decoration: underline;
+    color: #c29e00;
+    &:hover {
+      color: #745f05;
+    }
+  }
+}

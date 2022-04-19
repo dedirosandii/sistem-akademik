@@ -1,0 +1,86 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@300;400;600;700;900&display=swap");
+.section-title {
+  margin-top: 100px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.section-title h2 {
+  font-size: 34px;
+}
+
+.section-title h5 {
+  font-size: 30px;
+  margin-top: 10px;
+  font-weight: 200;
+}
+
+.section-title a {
+  color: #3f3f3f;
+}
+
+.form .card-login {
+  margin-top: 20px;
+  border-radius: 0;
+  padding: 0 10px 20px;
+}
+
+.form .card-login .title {
+  font-size: 14px;
+  color: #838383;
+}
+
+.form .card-login form {
+  margin-top: 20px;
+}
+
+.form .card-login form .form-control {
+  font-size: 14px;
+  border-radius: 0;
+}
+
+.form .card-login form .form-control:focus {
+  border-color: #3163ad;
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.form .card-login form .form-group {
+  position: relative;
+  margin-top: 15px;
+}
+
+.form .card-login form .form-group ::-webkit-input-placeholder {
+  color: #bbb9b9;
+}
+
+.form .card-login form .form-group .tombol-login {
+  position: absolute;
+  display: block;
+  top: 5px;
+  right: 15px;
+  z-index: 2;
+  color: #838383;
+}
+
+.form .card-login form .btn-login {
+  background-color: #367fa9;
+  color: #ffffff;
+  border-radius: 0;
+}
+
+.form .card-login form .btn-login:hover {
+  background-color: #287099;
+}
+
+* a {
+  text-decoration: none;
+}
+
+body {
+  text-decoration: none;
+  height: 100vh;
+  background: #d2d6de;
+}
+/*# sourceMappingURL=main.css.map */

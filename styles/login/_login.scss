@@ -1,0 +1,63 @@
+.section-title {
+  margin-top: 100px;
+  justify-content: center;
+  h2 {
+    font-size: 34px;
+  }
+  h5 {
+    font-size: 30px;
+    margin-top: 10px;
+    font-weight: 200;
+  }
+  a {
+    color: #3f3f3f;
+  }
+}
+
+.form {
+  .card-login {
+    margin-top: 20px;
+    border-radius: 0;
+    // padding: 10px 10px;
+    padding: 0 10px 20px;
+    .title {
+      font-size: 14px;
+      color: #838383;
+    }
+    form {
+      margin-top: 20px;
+      .form-control {
+        font-size: 14px;
+        border-radius: 0;
+        &:focus {
+          border-color: #3163ad;
+          box-shadow: none;
+        }
+      }
+      .form-group {
+        position: relative;
+        margin-top: 15px;
+        ::-webkit-input-placeholder {
+          color: #bbb9b9;
+        }
+        .tombol-login {
+          position: absolute;
+          display: block;
+          top: 5px;
+          right: 15px;
+          z-index: 2;
+          color: #838383;
+        }
+      }
+
+      .btn-login {
+        background-color: #367fa9;
+        color: #ffffff;
+        border-radius: 0;
+        &:hover {
+          background-color: #287099;
+        }
+      }
+    }
+  }
+}
